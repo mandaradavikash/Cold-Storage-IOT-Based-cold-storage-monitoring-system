@@ -269,5 +269,5 @@ This project is developed for **academic purposes** as part of a Major Project i
 ---
 
 <p align="center">
-  <strong>Built with ❤️ on ARM7 — ColdGuard keeps the cold in check.</strong>
+  <strong>Powered by ⚡ARM7, driven by innovation, and built to make every degree count..</strong>
 </p>
