@@ -83,7 +83,7 @@ Built on the **NXP LPC2148 ARM7TDMI-S** microcontroller, ColdGuard provides:
 
 ### 1. Full Hardware Board
 
-<img src="images/hardware_board.jpeg" alt="Full Hardware Board" width="700"/>
+<img src="images/hardware_board.jpeg" alt="Full Hardware Board" width
 
 ---
 
