@@ -251,7 +251,7 @@ The configuration menu is hardware-gated behind an external interrupt (EINT3) an
 
 ## 👨‍💻 Author
 
-**VIKAS** — ARM Embedded Systems Major Project
+**VIKASH** — ARM Embedded Systems Major Project
 
 | | |
 |---|---|
