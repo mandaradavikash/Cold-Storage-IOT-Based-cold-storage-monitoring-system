@@ -264,7 +264,7 @@ The configuration menu is hardware-gated behind an external interrupt (EINT3) an
 
 ## 📄 License
 
-This project is developed for **academic purposes** as part of a Major Project in ARM Embedded Systems.
+This work is carried out as an academic initiative to apply core concepts of ARM Embedded Systems through practical project development..
 
 ---
 
