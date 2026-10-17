@@ -89,13 +89,15 @@ Built on the **NXP LPC2148 ARM7TDMI-S** microcontroller, ColdGuard provides:
 
 ### 2. LCD Display Output
 
-<img src="images/display.png" alt="LCD Display Output" width="700"/>
+<img width="2630" height="1600" alt="display" src="https://github.com/user-attachments/assets/5dc5e402-1637-41e3-b42b-22a82a6dab35" />
+
 
 ---
 
 ### 3. ThingSpeak IoT Dashboard
 
-<img src="images/thingspeak_dashboard.png" alt="ThingSpeak Dashboard" width="700"/>
+<img width="1119" height="839" alt="thingspeak_dashboard" src="https://github.com/user-attachments/assets/2c603594-c71e-4853-a2b1-87f25ab4b32a" />
+
 
 ---
 
@@ -178,11 +180,13 @@ The LPC2148 clock tree is configured in `Startup.s` and `main.c`:
 
 The firmware follows a **modular driver architecture** — each peripheral has its own `.c`/`.h` pair with a clean public API:
 
-<img src="images/software_architecture.png" alt="Software Architecture" width="700"/>
+<img width="1536" height="1024" alt="software_architecture (2)" src="https://github.com/user-attachments/assets/2c53fa5c-c493-4b37-95f8-2f46ede82dd9" />
+
 
 ### Main Loop State Machine
 
-<img src="images/main_loop_state_machine.png" alt="Main Loop State Machine" width="700"/>
+<img width="1024" height="1536" alt="main_loop_state_machine" src="https://github.com/user-attachments/assets/4d805a34-4a1c-4c17-811f-1ecafcb23911" />
+
 
 ---
 
@@ -205,13 +209,14 @@ Data is uploaded to **ThingSpeak** via HTTP GET requests through the ESP-01 Wi-F
 
 The 16×2 LCD shows different screens depending on system state:
 
-<img src="images/lcd_display_states.png" alt="LCD Display States" width="700"/>
+<img width="1536" height="1024" alt="lcd_display_states" src="https://github.com/user-attachments/assets/77aeb865-1209-4d03-8daa-f707b4abd0cd" />
+
 
 ---
 
 ## ⚙️ System Configuration
 
-All user-adjustable settings are defined in [`config.h`](config.h):
+All user-adjustable settings are defined.
 
 | Macro | Default | Range | Description |
 |-------|:-------:|:-----:|-------------|
@@ -230,7 +235,8 @@ All user-adjustable settings are defined in [`config.h`](config.h):
 
 The configuration menu is hardware-gated behind an external interrupt (EINT3) and software-gated behind a 4-digit PIN:
 
-<img src="images/menu_password_system.png" alt="Menu & Password System" width="700"/>
+<img width="1536" height="1024" alt="menu_password_system" src="https://github.com/user-attachments/assets/91ca9959-6fd2-4d86-9998-4bf88c9952e3" />
+
 
 ### Menu Options
 
