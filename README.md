@@ -161,7 +161,8 @@ The LPC2148 clock tree is configured in `Startup.s` and `main.c`:
 
 ## 🗺️ Circuit Block Diagram
 
-<img src="images/circuit_block_diagram.png" alt="Circuit Block Diagram" width="700"/>
+<img width="1536" height="1024" alt="circuit_block_diagram" src="https://github.com/user-attachments/assets/2eeb29ec-7f7f-4924-a073-9a7f4d90ba96" />
+
 
 ### Interrupt Map
 
