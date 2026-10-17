@@ -6,7 +6,7 @@
 * Clock / UART settings
 * The system clock (CCLK) is configured to 60 MHz by the startup
 * assembly script (Startup.s) using a 12 MHz crystal and the PLL:
-* PLL_SETUP = 1, PLLCFG = 0x24 (M=5, P=2) ? CCLK = 12 MHz × 5 = 60 MHz
+* PLL_SETUP = 1, PLLCFG = 0x24 (M=5, P=2) ? CCLK = 12 MHz Ã— 5 = 60 MHz
 * MAM fully enabled (MAMCR=2, MAMTIM=4)
 * SystemClock_Init() in main.c sets VPBDIV=0x00 ? PCLK = CCLK/4 = 15 MHz.
 * UART divisor below assumes PCLK = 15 MHz.
@@ -40,9 +40,9 @@
 * that is listed in .gitignore so credentials are not leaked.
 * ------------------------------------------------------------- */
 #define ESP_ENABLE 1
-#define WIFI_SSID "Lahari"
-#define WIFI_PASSWORD "asdf0987"
-#define THINGSPEAK_WRITE_API_KEY  "3ZVBTOUVKH8LKN3Q"                             //"DMJ6DWUOH6U4ANT3"
+#define WIFI_SSID "vikas"
+#define WIFI_PASSWORD "0987654321"
+#define THINGSPEAK_WRITE_API_KEY  "WWVV5J7BSZ754VGD"              
 #define THINGSPEAK_HOST "api.thingspeak.com"
 #define THINGSPEAK_PORT 80
 #define ESP_RESPONSE_BUFFER_SIZE 300
