@@ -130,7 +130,8 @@ Built on the **NXP LPC2148 ARM7TDMI-S** microcontroller, ColdGuard provides:
 
 The LPC2148 clock tree is configured in `Startup.s` and `main.c`:
 
-<img src="images/system_clock_configuration.png" alt="System Clock Configuration" width="700"/>
+<img width="1536" height="1024" alt="system_clock_configuration" src="https://github.com/user-attachments/assets/1d544574-b9f5-4a39-a359-01ef11097c21" />
+
 
 ---
 
